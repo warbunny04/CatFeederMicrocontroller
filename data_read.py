@@ -15,4 +15,4 @@ while True:
         if stat == reader.OK:
             card = int.from_bytes(bytes(uid),"little",False)
             print("CARD ID: "+str(card))
-utime.sleep_ms(500) 
+utime.sleep_ms(500) #half second sleep
